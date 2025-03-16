@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FM Dizayn Sistem Firması</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #555;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FM Dizayn Sistem Firması</h1>
+    </header>
+    <nav>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#urunler">Ürünler</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+    <div class="container">
+        <section id="hakkimizda">
+            <h2>Hakkımızda</h2>
+            <p>FM Dizayn Sistem Firması, alüminyum sistemler konusunda yenilikçi ve kaliteli çözümler sunmaktadır.</p>
+        </section>
+        <section id="urunler">
+            <h2>Ürünlerimiz</h2>
+            <ul>
+                <li>Alüminyum Kapı ve Pencere Sistemleri</li>
+                <li>Alüminyum Cephe Kaplama</li>
+                <li>Cam Balkon Sistemleri</li>
+                <li>Otomatik Kapı Sistemleri</li>
+                <li>Ofis Bölme Sistemleri</li>
+            </ul>
+        </section>
+        <section id="iletisim">
+            <h2>İletişim</h2>
+            <p>Adres: --- Mah. 111. Sokak No:11 Antalya</p>
+            <p>Telefon: 0212 111 11 11</p>
+            <p>Email: fmdizayn@gmail.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 FM Dizayn Sistem Firması. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
