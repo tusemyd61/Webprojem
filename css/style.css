@@ -4,3 +4,28 @@
 .baslik{
     color:black;
 }
+.reklam{
+    color: black;
+}
+img {
+    height: 200px; /* Burada istediğin yüksekliği ayarlayabilirsin */
+    object-fit: cover; /* Görselin oranını korur ve fazla kısmı kırpar */
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    height: 30px; /* logonun boyutunu ayarlayabilirsin */
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+    
+  
+  
