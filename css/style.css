@@ -67,25 +67,6 @@ body {
     font-weight: bold;
     color: #333;
   }
-  .swiper {
-    width: 80%;
-    height: 100px; /* Slider yüksekliği */
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 9px;
-    background: #1708ea;
-  }
-  
-  .swiper-button-next,
-  .swiper-button-prev {
-    color: #2317c8; /* Ok butonlarının rengi */
-  }
-  
-  .swiper-pagination-bullet-active {
-    background: #370ae9; /* Aktif olan sayfa göstergesi */
-  }
   .baloncuk {
     position: fixed;
     bottom: 20px;
